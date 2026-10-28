@@ -1,0 +1,88 @@
+Agentic Retrieval and Extraction over Personal Data on a Phone
+1. The Idea
+ 
+Build a search system that lives entirely on a phone and answers everyday questions about everything stored on it — documents, scans, screenshots, and photos — in plain language, without sending anything to the internet.
+ 
+The kinds of questions we want to answer:
+ 
+    "Give me my Aadhaar card"
+    "Find a photo of a beach"
+    "Photos of me at a party last December"
+    "Find more photos of this person" (asked by giving a photo, not words)
+    "Find this exact bag in my photos"
+ 
+These look similar but need very different machinery. Finding an Aadhaar card is about reading text in an image. Finding a beach is about understanding the scene. Finding "me" is about recognising a face. Finding one specific bag is about matching an exact object, not just a similar-looking one.
+ 
+The system is agentic in the sense that it doesn't blindly run one fixed procedure. It first understands what the question is asking, decides which of its tools to use, looks at what came back, and then decides whether it's done — or whether it should try again differently, ask the user a clarifying question, or admit it doesn't know. Importantly, it only does this extra thinking when the simple approach doesn't work, because thinking is expensive on a phone.
+Why it matters
+ 
+A phone holds tens of thousands of files that are, in practice, lost. There is no good way to find them. Today you either scroll manually, or you upload everything to a cloud service.
+ 
+That trade-off is the real problem. The files people most urgently need to find — identity documents, medical reports, insurance papers, bank statements — are exactly the ones they are least willing to upload to someone else's server. Search is already solved in the cloud and still unsolved on the device, and the most valuable data is the data that cannot leave the device.
+ 
+If this works: instant access to important documents when you need them, and a personal photo library that is actually searchable — with a guarantee that nothing was shared. It would also show that this class of search is possible within a phone's limited compute, which matters anywhere data cannot leave a device.
+Where the gap is
+ 
+The individual building blocks are mature. Matching photos to text descriptions was solved by CLIP [1] and its successors. Face recognition is standard since ArcFace [2]. Matching an exact object rather than a merely similar one is handled by DINOv2 features [3] with geometric verification. Reading documents is well covered, most recently by ColPali [4], which retrieves document pages without running OCR at all. None of these is the missing piece.
+ 
+Personal-archive search is an acknowledged problem, but solved the wrong way for our setting. The Lifelog Search Challenge and NTCIR-Lifelog tasks [5] evaluate exactly this — natural-language search over someone's personal photo archive — and their leading systems are strong. But they run on servers and are built for a trained operator interactively steering the search against a clock, not for an ordinary user asking one question and expecting one answer.
+ 
+Concretely, three gaps:
+ 
+Gap 1 — Nobody handles questions that combine abilities. "Photos of me at a party last December" needs face recognition, scene understanding, and a date filter simultaneously. The closest work is composed image retrieval, such as Pic2Word [6], evaluated on the CIRR benchmark [7]. But that combines an image with a text edit — not a hard identity filter with a soft semantic ranking and a metadata constraint. That literature also leaves open how scores from a face model and a scene model should be combined, since they are not on comparable scales.
+ 
+Gap 2 — Nobody does this on a device, and "how much effort should this question get" is unstudied here. Adaptive-RAG [8] shows a system can decide per query how hard to work, but it is text-only, cloud-hosted, and treats extra reasoning steps as essentially free. On a phone each step costs real seconds and real battery, which changes the question from "does extra effort help" to "when is extra effort worth its cost."
+ 
+Gap 3 — There is no way to measure any of this. Existing benchmarks each cover one ability in isolation — CIRR for composed retrieval, DocVQA-style sets for documents, Oxford/Paris for object retrieval. None evaluates a realistic mixed personal collection, and none contains screenshots, which are typically 20–40% of a real Indian phone gallery.
+ 
+So the gap is not a missing model. It is the missing composition, the missing device constraint, and the missing evaluation.
+2. The Plan
+ 
+Five threads, running mostly in parallel.
+Thread 1 — Focused literature study
+ 
+Not a broad survey. Four specific papers, each read to answer one specific question:
+ 
+    Lifelog Search Challenge system papers [5] — what kinds of questions do people actually ask about their own archives? We need their query taxonomy to design our benchmark, and we need to understand precisely why these systems stayed interactive instead of becoming autonomous.
+    Adaptive-RAG [8] — how does a system decide how much effort a question deserves? This is the closest existing template for our controller. The problem to solve: its routing decision is trained on text-only questions and ignores cost, so we must adapt it to multimodal questions with latency and battery as inputs.
+    ColPali [4] versus traditional OCR pipelines — should we read documents as text, or embed the page image directly? ColPali skips OCR entirely and is very strong, but assumes server-scale compute. This decision determines our entire document pipeline, so it has to be settled before Thread 3 can start.
+    Pic2Word [6] — how are combined image-and-text queries currently handled, and why does that approach not extend to identity filters? This is the honest baseline our compound-query method has to beat.
+ 
+Output: a short design-decisions document with reproduced baseline numbers, not a survey.
+Thread 2 — Build the benchmark
+ 
+Since no dataset exists, we create one: a realistic phone-like collection of a few thousand items (photos, screenshots, and synthetic documents with fabricated details — no real identity documents), plus a set of test questions covering all five kinds of search, each judged for relevance by several people so the scores are trustworthy. Query types are grounded in the lifelog taxonomy from Thread 1 rather than invented by us. This is the main scientific contribution and the thing every other thread is measured against.
+Thread 3 — Build the indexing pipeline
+ 
+When a file arrives, decide cheaply what it is, then only run the expensive analysis that is actually needed — don't try to read text in a beach photo, don't look for faces where there are none. Fast basic processing runs immediately so search works right away; heavier processing runs later while the phone is idle and charging.
+Thread 4 — Build the query planner and the agentic loop
+ 
+A small language model running on the phone converts a question into a plan: which filters to apply, which search signal to rank by. If the first attempt returns weak or ambiguous results, the loop kicks in — rephrase the query, break it into parts, ask the user which document they meant, or decline to answer. The research question, following on from Adaptive-RAG, is when to trigger this, since every extra step costs time and battery.
+Thread 5 — Build and measure the phone app
+ 
+An Android app that ties it together, with honest numbers reported: how long indexing takes, how fast queries are, how much memory and storage it uses, how much battery it costs.
+ 
+Cutting across all of these is a smaller but genuinely tricky problem, and the one the composed-retrieval literature leaves open: the different search methods produce scores that aren't comparable to each other. When a question needs two of them at once, combining the results correctly is not obvious. We compare rank-based fusion against calibrating each signal to a probability. Solving this well is a real contribution.
+Skills and resources
+ 
+The work needs machine learning (adapting and shrinking models to run on a phone), Android development, document/OCR processing, and evaluation methodology for search systems. These are distinct enough areas that they can be split across the team with each member owning a thread end-to-end, which is what justifies the team size — every thread has its own deliverable and its own measurable result, rather than everyone working on one pipeline.
+ 
+For hardware we need a GPU for preparing and shrinking the models, and two Android phones — one high-end and one mid-range. The mid-range phone matters: a system that only works on an expensive flagship doesn't prove the point.
+How we'll know it worked
+ 
+We compare against three baselines: plain filename search, a single-model approach for each type of query, and our own system with the agentic loop switched off. The headline result we want is the trade-off curve — how often the extra thinking is needed, what it recovers, and what it costs in time and battery.
+Main risks
+ 
+The benchmark is on the critical path for everything else, so it starts in week one, beginning with a small pilot version so the other threads have something to test against early.
+ 
+Scope is the other risk. Documents and photos are two large subsystems. The document half is the guaranteed deliverable; exact-object matching is the first thing we drop if we run short on time.
+References
+ 
+    Radford et al. Learning Transferable Visual Models From Natural Language Supervision (CLIP). ICML 2021.
+    Deng et al. ArcFace: Additive Angular Margin Loss for Deep Face Recognition. CVPR 2019.
+    Oquab et al. DINOv2: Learning Robust Visual Features without Supervision. 2023.
+    Faysse et al. ColPali: Efficient Document Retrieval with Vision Language Models. ICLR 2025.
+    Gurrin et al. NTCIR-Lifelog and Lifelog Search Challenge task overview papers.
+    Saito et al. Pic2Word: Mapping Pictures to Words for Zero-shot Composed Image Retrieval. CVPR 2023.
+    Liu et al. Image Retrieval on Real-life Images with Pre-trained Vision-and-Language Models (CIRR). ICCV 2021.
+    Jeong et al. Adaptive-RAG: Learning to Adapt Retrieval-Augmented LLMs through Question Complexity. NAACL 2024.

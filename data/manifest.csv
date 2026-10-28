@@ -1,0 +1,130 @@
+item_id,path,bucket,subtype,is_screenshot,source_url,license,attribution,capture_date,origin,notes
+scn_beach_000,scenes/beach/scn_beach_000.jpg,scene,beach,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_beach_001,scenes/beach/scn_beach_001.jpg,scene,beach,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_beach_002,scenes/beach/scn_beach_002.jpg,scene,beach,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_beach_003,scenes/beach/scn_beach_003.jpg,scene,beach,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_beach_004,scenes/beach/scn_beach_004.jpg,scene,beach,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_beach_005,scenes/beach/scn_beach_005.jpg,scene,beach,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_beach_006,scenes/beach/scn_beach_006.jpg,scene,beach,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_beach_007,scenes/beach/scn_beach_007.jpg,scene,beach,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_beach_008,scenes/beach/scn_beach_008.jpg,scene,beach,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_beach_009,scenes/beach/scn_beach_009.jpg,scene,beach,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mountain_000,scenes/mountain/scn_mountain_000.jpg,scene,mountain,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mountain_001,scenes/mountain/scn_mountain_001.jpg,scene,mountain,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mountain_002,scenes/mountain/scn_mountain_002.jpg,scene,mountain,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mountain_003,scenes/mountain/scn_mountain_003.jpg,scene,mountain,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mountain_004,scenes/mountain/scn_mountain_004.jpg,scene,mountain,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mountain_005,scenes/mountain/scn_mountain_005.jpg,scene,mountain,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mountain_006,scenes/mountain/scn_mountain_006.jpg,scene,mountain,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mountain_007,scenes/mountain/scn_mountain_007.jpg,scene,mountain,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mountain_008,scenes/mountain/scn_mountain_008.jpg,scene,mountain,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mountain_009,scenes/mountain/scn_mountain_009.jpg,scene,mountain,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_trees_000,scenes/trees/scn_trees_000.jpg,scene,trees,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_trees_001,scenes/trees/scn_trees_001.jpg,scene,trees,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_trees_002,scenes/trees/scn_trees_002.jpg,scene,trees,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_trees_003,scenes/trees/scn_trees_003.jpg,scene,trees,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_trees_004,scenes/trees/scn_trees_004.jpg,scene,trees,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_trees_005,scenes/trees/scn_trees_005.jpg,scene,trees,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_trees_006,scenes/trees/scn_trees_006.jpg,scene,trees,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_trees_007,scenes/trees/scn_trees_007.jpg,scene,trees,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_trees_008,scenes/trees/scn_trees_008.jpg,scene,trees,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_trees_009,scenes/trees/scn_trees_009.jpg,scene,trees,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_vehicle_000,scenes/vehicle/scn_vehicle_000.jpg,scene,vehicle,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_vehicle_001,scenes/vehicle/scn_vehicle_001.jpg,scene,vehicle,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_vehicle_002,scenes/vehicle/scn_vehicle_002.jpg,scene,vehicle,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_vehicle_003,scenes/vehicle/scn_vehicle_003.jpg,scene,vehicle,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_vehicle_004,scenes/vehicle/scn_vehicle_004.jpg,scene,vehicle,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_vehicle_005,scenes/vehicle/scn_vehicle_005.jpg,scene,vehicle,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_vehicle_006,scenes/vehicle/scn_vehicle_006.jpg,scene,vehicle,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_vehicle_007,scenes/vehicle/scn_vehicle_007.jpg,scene,vehicle,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_vehicle_008,scenes/vehicle/scn_vehicle_008.jpg,scene,vehicle,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_vehicle_009,scenes/vehicle/scn_vehicle_009.jpg,scene,vehicle,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_party_000,scenes/party/scn_party_000.jpg,scene,party,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_party_001,scenes/party/scn_party_001.jpg,scene,party,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_party_002,scenes/party/scn_party_002.jpg,scene,party,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_party_003,scenes/party/scn_party_003.jpg,scene,party,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_party_004,scenes/party/scn_party_004.jpg,scene,party,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_party_005,scenes/party/scn_party_005.jpg,scene,party,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_party_006,scenes/party/scn_party_006.jpg,scene,party,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_party_007,scenes/party/scn_party_007.jpg,scene,party,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_party_008,scenes/party/scn_party_008.jpg,scene,party,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_party_009,scenes/party/scn_party_009.jpg,scene,party,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_college_000,scenes/college/scn_college_000.jpg,scene,college,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_college_001,scenes/college/scn_college_001.jpg,scene,college,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_college_002,scenes/college/scn_college_002.jpg,scene,college,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_college_003,scenes/college/scn_college_003.jpg,scene,college,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_college_004,scenes/college/scn_college_004.jpg,scene,college,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_college_005,scenes/college/scn_college_005.jpg,scene,college,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_college_006,scenes/college/scn_college_006.jpg,scene,college,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_college_007,scenes/college/scn_college_007.jpg,scene,college,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_college_008,scenes/college/scn_college_008.jpg,scene,college,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_college_009,scenes/college/scn_college_009.jpg,scene,college,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_food_000,scenes/food/scn_food_000.jpg,scene,food,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_food_001,scenes/food/scn_food_001.jpg,scene,food,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_food_002,scenes/food/scn_food_002.jpg,scene,food,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_food_003,scenes/food/scn_food_003.jpg,scene,food,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_food_004,scenes/food/scn_food_004.jpg,scene,food,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_food_005,scenes/food/scn_food_005.jpg,scene,food,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_food_006,scenes/food/scn_food_006.jpg,scene,food,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_food_007,scenes/food/scn_food_007.jpg,scene,food,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_food_008,scenes/food/scn_food_008.jpg,scene,food,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_food_009,scenes/food/scn_food_009.jpg,scene,food,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_travel_000,scenes/travel/scn_travel_000.jpg,scene,travel,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_travel_001,scenes/travel/scn_travel_001.jpg,scene,travel,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_travel_002,scenes/travel/scn_travel_002.jpg,scene,travel,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_travel_003,scenes/travel/scn_travel_003.jpg,scene,travel,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_travel_004,scenes/travel/scn_travel_004.jpg,scene,travel,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_travel_005,scenes/travel/scn_travel_005.jpg,scene,travel,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_travel_006,scenes/travel/scn_travel_006.jpg,scene,travel,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_travel_007,scenes/travel/scn_travel_007.jpg,scene,travel,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_travel_008,scenes/travel/scn_travel_008.jpg,scene,travel,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_travel_009,scenes/travel/scn_travel_009.jpg,scene,travel,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_fitness_000,scenes/fitness/scn_fitness_000.jpg,scene,fitness,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_fitness_001,scenes/fitness/scn_fitness_001.jpg,scene,fitness,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_fitness_002,scenes/fitness/scn_fitness_002.jpg,scene,fitness,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_fitness_003,scenes/fitness/scn_fitness_003.jpg,scene,fitness,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_fitness_004,scenes/fitness/scn_fitness_004.jpg,scene,fitness,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_fitness_005,scenes/fitness/scn_fitness_005.jpg,scene,fitness,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_fitness_006,scenes/fitness/scn_fitness_006.jpg,scene,fitness,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_fitness_007,scenes/fitness/scn_fitness_007.jpg,scene,fitness,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_fitness_008,scenes/fitness/scn_fitness_008.jpg,scene,fitness,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_fitness_009,scenes/fitness/scn_fitness_009.jpg,scene,fitness,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mall_000,scenes/mall/scn_mall_000.jpg,scene,mall,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mall_001,scenes/mall/scn_mall_001.jpg,scene,mall,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mall_002,scenes/mall/scn_mall_002.jpg,scene,mall,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mall_003,scenes/mall/scn_mall_003.jpg,scene,mall,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mall_004,scenes/mall/scn_mall_004.jpg,scene,mall,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mall_005,scenes/mall/scn_mall_005.jpg,scene,mall,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mall_006,scenes/mall/scn_mall_006.jpg,scene,mall,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mall_007,scenes/mall/scn_mall_007.jpg,scene,mall,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mall_008,scenes/mall/scn_mall_008.jpg,scene,mall,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+scn_mall_009,scenes/mall/scn_mall_009.jpg,scene,mall,0,https://huggingface.co/datasets/tanganke/sun397,SUN397 research use,"SUN397 (Xiao et al., CVPR 2010)",,fetched,
+doc_aadhaar_000,documents/aadhaar/doc_aadhaar_000.jpg,document,aadhaar,0,https://commons.wikimedia.org/wiki/File:A_sample_of_Aadhaar_card.jpg,CC BY-SA 4.0,"<a href=""//commons.wikimedia.org/wiki/User:PageImp"" title=""User:PageImp"">PageImp</a>",,fetched,public specimen; verify no real PII before publishing
+doc_aadhaar_001,documents/aadhaar/doc_aadhaar_001.png,document,aadhaar,0,https://commons.wikimedia.org/wiki/File:Specimen_of_an_Aadhaar_Card_2024.png,CC BY-SA 4.0,"<a href=""//commons.wikimedia.org/wiki/User:SayantanDhara"" title=""User:SayantanDhara"">SayantanDhara</a>",,fetched,public specimen; verify no real PII before publishing
+doc_aadhaar_002,documents/aadhaar/doc_aadhaar_002.jpg,document,aadhaar,0,https://commons.wikimedia.org/wiki/File:Aadhar_PVC_Front.jpg,CC BY-SA 4.0,"<a href=""//commons.wikimedia.org/w/index.php?title=User:Nishu0246&amp;action=edit&amp;redlink=1"" class=""new"" title=""User",,fetched,public specimen; verify no real PII before publishing
+doc_aadhaar_003,documents/aadhaar/doc_aadhaar_003.jpg,document,aadhaar,0,https://commons.wikimedia.org/wiki/File:Sample_PVC_Aadhar_Card_back.jpg,CC BY-SA 4.0,"<a href=""//commons.wikimedia.org/w/index.php?title=User:Nishu0246&amp;action=edit&amp;redlink=1"" class=""new"" title=""User",,fetched,public specimen; verify no real PII before publishing
+doc_pan_000,documents/pan/doc_pan_000.jpg,document,pan,0,https://commons.wikimedia.org/wiki/File:A_sample_of_Permanent_Account_Number_(PAN)_Card.jpg,CC BY-SA 4.0,"<a href=""//commons.wikimedia.org/wiki/User:PageImp"" title=""User:PageImp"">PageImp</a>",,fetched,public specimen; verify no real PII before publishing
+doc_passport_000,documents/passport/doc_passport_000.jpg,document,passport,0,https://commons.wikimedia.org/wiki/File:Indian_Passport_Bio_Page_2021.jpg,CC BY-SA 4.0,"<a href=""//commons.wikimedia.org/w/index.php?title=User:AJed34&amp;action=edit&amp;redlink=1"" class=""new"" title=""User:AJ",,fetched,public specimen; verify no real PII before publishing
+doc_passport_001,documents/passport/doc_passport_001.jpg,document,passport,0,https://commons.wikimedia.org/wiki/File:Indian_Passport_01.jpg,CC BY-SA 4.0,"<a href=""//commons.wikimedia.org/wiki/User:Gpkp"" title=""User:Gpkp"">Gpkp</a>",,fetched,public specimen; verify no real PII before publishing
+doc_dl_000,documents/dl/doc_dl_000.jpg,document,dl,0,https://commons.wikimedia.org/wiki/File:Driving_License_issued_by_the_Transport_department_of_Karnataka_State.jpg,CC BY-SA 3.0,"<a href=""//commons.wikimedia.org/w/index.php?title=User:DEBASIS_DOLUI&amp;action=edit&amp;redlink=1"" class=""new"" title=""",,fetched,public specimen; verify no real PII before publishing
+doc_dl_001,documents/dl/doc_dl_001.jpg,document,dl,0,https://commons.wikimedia.org/wiki/File:International_Driving_Permit_(India).jpg,CC BY-SA 4.0,"<a href=""//commons.wikimedia.org/wiki/User:AbhiSuryawanshi"" title=""User:AbhiSuryawanshi"">AbhiSuryawanshi</a>",,fetched,public specimen; verify no real PII before publishing
+doc_receipt_000,documents/receipt/doc_receipt_000.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_001,documents/receipt/doc_receipt_001.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_002,documents/receipt/doc_receipt_002.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_003,documents/receipt/doc_receipt_003.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_004,documents/receipt/doc_receipt_004.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_005,documents/receipt/doc_receipt_005.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_006,documents/receipt/doc_receipt_006.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_007,documents/receipt/doc_receipt_007.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_008,documents/receipt/doc_receipt_008.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_009,documents/receipt/doc_receipt_009.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_010,documents/receipt/doc_receipt_010.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_011,documents/receipt/doc_receipt_011.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_012,documents/receipt/doc_receipt_012.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_013,documents/receipt/doc_receipt_013.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_014,documents/receipt/doc_receipt_014.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_015,documents/receipt/doc_receipt_015.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_016,documents/receipt/doc_receipt_016.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_017,documents/receipt/doc_receipt_017.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_018,documents/receipt/doc_receipt_018.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream
+doc_receipt_019,documents/receipt/doc_receipt_019.jpg,document,receipt,0,https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE,CC-BY-4.0,ICDAR 2019 SROIE,,fetched,has OCR ground truth upstream

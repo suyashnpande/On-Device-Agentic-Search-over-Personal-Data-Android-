@@ -1,0 +1,20 @@
+{"query_id":"q001","text":"give me my aadhaar card","gold_route":"document","kind":"doc_lookup","relevant":{"aadhaar":2}}
+{"query_id":"q002","text":"pan card","gold_route":"document","kind":"doc_lookup","relevant":{"pan":2}}
+{"query_id":"q003","text":"show me my passport","gold_route":"document","kind":"doc_lookup","relevant":{"passport":2}}
+{"query_id":"q004","text":"driving licence","gold_route":"document","kind":"doc_lookup","relevant":{"dl":2}}
+{"query_id":"q005","text":"find my receipts","gold_route":"document","kind":"doc_lookup","relevant":{"receipt":2}}
+{"query_id":"q006","text":"tax invoice with gst number","gold_route":"document","kind":"doc_lookup","relevant":{"receipt":2}}
+{"query_id":"q007","text":"government identity document","gold_route":"document","kind":"doc_lookup","relevant":{"aadhaar":2,"pan":2,"passport":2,"dl":2}}
+{"query_id":"q008","text":"total amount paid at the store","gold_route":"document","kind":"doc_lookup","relevant":{"receipt":2}}
+{"query_id":"q009","text":"find a photo of a beach","gold_route":"scene","kind":"scene_search","relevant":{"beach":2}}
+{"query_id":"q010","text":"a photo of mountains","gold_route":"scene","kind":"scene_search","relevant":{"mountain":2}}
+{"query_id":"q011","text":"a forest with trees","gold_route":"scene","kind":"scene_search","relevant":{"trees":2}}
+{"query_id":"q012","text":"parked cars","gold_route":"scene","kind":"scene_search","relevant":{"vehicle":2}}
+{"query_id":"q013","text":"people at a party","gold_route":"scene","kind":"scene_search","relevant":{"party":2}}
+{"query_id":"q014","text":"college campus","gold_route":"scene","kind":"scene_search","relevant":{"college":2}}
+{"query_id":"q015","text":"a photo of food","gold_route":"scene","kind":"scene_search","relevant":{"food":2}}
+{"query_id":"q016","text":"a walk in the park","gold_route":"scene","kind":"scene_search","relevant":{"travel":2}}
+{"query_id":"q017","text":"gym workout","gold_route":"scene","kind":"scene_search","relevant":{"fitness":2}}
+{"query_id":"q018","text":"inside a shopping mall","gold_route":"scene","kind":"scene_search","relevant":{"mall":2}}
+{"query_id":"q019","text":"my card","gold_route":"document","kind":"ambiguous","relevant":{"aadhaar":1,"pan":1,"dl":1}}
+{"query_id":"q020","text":"that thing from last december","gold_route":"document","kind":"ambiguous","relevant":{}}

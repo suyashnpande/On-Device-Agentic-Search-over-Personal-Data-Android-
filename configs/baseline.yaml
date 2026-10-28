@@ -1,0 +1,61 @@
+# Pixarch baseline configuration.
+# Every tunable lives here -- no magic numbers in code.
+
+paths:
+  raw_dir: data/raw
+  manifest: data/manifest.csv
+  queries: data/queries.jsonl
+  qrels: data/qrels.csv
+  index_db: index.db
+  results_dir: docs/results
+
+clip:
+  model: ViT-B-32
+  pretrained: laion2b_s34b_b79k
+  device: auto          # auto | cuda | cpu
+  batch_size: 32
+
+classify:
+  # Below this margin between the best and second-best bucket, the item is
+  # indexed into BOTH branches instead of being guessed.
+  #
+  # Calibrated on the 127-item corpus: scene margins run 0.014-0.118 (median
+  # 0.068) and document margins 0.049-0.159 (median 0.110), so the two overlap
+  # heavily. The initial 0.10 sat above the scene median and hedged 79% of the
+  # corpus, doubling OCR work for no gain. Argmax is already 127/127 correct
+  # here, so the threshold should be a narrow hedge: 0.05 hedges 11%.
+  #
+  # Caveat: fitted on the same corpus we evaluate on. Re-derive on a held-out
+  # split once the curated set exists.
+  confidence_threshold: 0.05
+  prompts:
+    document:
+      - "a scanned identity document"
+      - "a photograph of a printed document"
+      - "a screenshot of a receipt or bill"
+      - "a page of text"
+      - "an identity card"
+    scene:
+      - "a photo of a landscape"
+      - "a photo of people at an event"
+      - "a snapshot of a place"
+      - "a photograph of food"
+      - "a casual photograph"
+
+ocr:
+  # easyocr is the default: pip-installable with no system package (there is no
+  # sudo here for tesseract-ocr) and it covers Devanagari alongside Latin.
+  # On Android this becomes Google ML Kit Text Recognition v2 -- the OCREngine
+  # protocol means no call site changes.
+  engine: tesseract       # tesseract | easyocr
+  languages: [eng, hin]   # Latin + Devanagari
+  min_confidence: 30      # drop blocks below this (0-100)
+
+search:
+  top_k: 10
+  # FTS5 bm25() column weights, in schema column order: (ocr_text, doc_type).
+  # There is no filename column -- see schema.sql for why.
+  bm25_weights: [1.0, 5.0]
+
+eval:
+  k_values: [1, 5, 10]

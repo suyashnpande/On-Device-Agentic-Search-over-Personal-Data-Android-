@@ -1,0 +1,23 @@
+# core
+numpy>=1.24
+pandas>=2.0
+Pillow>=10.0
+PyYAML>=6.0
+requests>=2.31
+
+# scene branch
+torch>=2.0
+open_clip_torch>=2.24
+
+# dataset fetch
+datasets>=2.14
+
+# document branch (OCR) - at least one engine required
+pytesseract>=0.3.10        # also needs the `tesseract-ocr` system package
+# paddleocr>=2.7           # optional second engine; see docs/design-decisions.md
+
+# demo
+gradio>=4.0
+
+# dev
+pytest>=7.4

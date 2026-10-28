@@ -1,0 +1,18 @@
+# Corpus images are reconstructed from data/manifest.csv via scripts/fetch_dataset.py
+data/raw/
+# One-off SUN397 label->offset scan; rebuilt on demand, not worth committing
+data/.sun397_offsets.json
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+.cache/
+models/
